@@ -12,9 +12,19 @@ int main(void)
 {
 	char ch = 'a';
 
-	while (ch <= 'z')
+	while (ch < 'e')
 	{
 		putchar(ch);
+		ch++;
+	}
+	while ('e' > ch >'q')
+	{
+		putchar(ch);
+		ch++;
+	}
+	while (ch > 'q')
+	{
+		putschar(ch);
 		ch++;
 	}
 	putchar('\n');
