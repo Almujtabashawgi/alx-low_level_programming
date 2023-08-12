@@ -17,14 +17,14 @@ int main(void)
 		putchar(ch);
 		ch++;
 	}
-	while ('e' > ch >'q')
+	while ('e' > ch > 'q')
 	{
 		putchar(ch);
 		ch++;
 	}
 	while (ch > 'q')
 	{
-		putschar(ch);
+		putchar(ch);
 		ch++;
 	}
 	putchar('\n');
