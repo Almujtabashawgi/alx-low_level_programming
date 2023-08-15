@@ -5,7 +5,7 @@
  *Description: a function that prints 10 times the alphabet
  */
 
-void print_alphabet_x10.c(void)
+void print_alphabet_x10(void)
 {
 	int line, ch;
 
