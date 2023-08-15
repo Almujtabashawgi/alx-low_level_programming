@@ -1,12 +1,11 @@
-#include "main.h"
+#include"main.h"
 
-/**
- * print_alphabet - utilizes on the
+/*
  *
- * Description:  a function that prints 10 times the alphabet, in lowercase
+ *Description: a function that prints 10 times the alphabet
  */
 
-void print_alphabet(void)
+void print_alphabet_x10.c(void)
 {
 	int line, ch;
 
