@@ -3,15 +3,15 @@
 /**
  * main - Entry point
  *
- * Description: Write a program that prints the numbers from 1 to 100, followed by a new line
+ * Description: Write a program that prints the numbers from 1 to 100
  *
  * Return: 0 Always Success
  */
 
-int main (void)
+int main(void)
 {
 	int i;
-	
+
 	for (i = 1; i <= 100; i++)
 	{
 		if ((i % 3) == 0 && (i % 5) == 0)
