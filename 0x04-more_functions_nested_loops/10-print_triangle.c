@@ -23,7 +23,9 @@ void print_triangle(int size);
 				_putchar('#');
 			}
 			if (h == size)
+			{
 				continue;
+			}
 			_putchar('\n');
 		}
 	}
