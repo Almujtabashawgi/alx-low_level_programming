@@ -1,31 +1,18 @@
-#include "holberton.h"
-#include "stdio.h"
-
+#include "main.h"
 /**
- * print_diagsums- sum diagonal values
- *
- * @a: pointer to array
- *
- * @size: int
- *
- *Return: sum of two sides
- *
+ * print_chessboard - Entry point
+ * @a: array
+ * Return: Always 0 (Success)
  */
-
-void print_diagsums(int *a, int size)
+void print_chessboard(char (*a)[8])
 {
-	int counter1, counter2, sum1, sum2;
+	int i;
+	int j;
 
-	sum1 = 0;
-	sum2 = 0;
-
-	for (counter1 = 0; counter1 < size; counter1++)
+	for (i = 0; i < 8; i++)
 	{
-		sum1 += a[(size + 1) * counter1];
+		for (j = 0; j < 8; j++)
+			_putchar(a[i][j]);
+		_putchar('\n');
 	}
-	for (counter2 = 0; counter2 < size; counter2++)
-	{
-		sum2 += a[(size - 1) * (counter2 + 1)];
-	}
-	printf("%d, %d\n", sum1, sum2);
 }
