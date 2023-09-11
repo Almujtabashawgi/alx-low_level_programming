@@ -1,7 +1,11 @@
 #include <stdio.h>
-
-int main(){
-	printf("%s",__FILE__);
+/**
+ * main - the main function
+ * Return: Always will be 0 (success)
+ */
+int main(void)
+{
+	printf("%s", __FILE__);
 	printf("\n");
-	return 0;
+	return (0);
 }
