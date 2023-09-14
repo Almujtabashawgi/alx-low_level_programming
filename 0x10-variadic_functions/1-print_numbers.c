@@ -1,6 +1,6 @@
 #include "variadic_functions.h"
 #include <stdio.h>
-#include <sdtarg.h>
+#include <stdarg.h>
 
 /**
  * print_numbers - Entry Point
